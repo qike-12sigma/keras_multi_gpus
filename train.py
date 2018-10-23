@@ -12,7 +12,7 @@ from pyimagesearch.minigooglenet import MiniGoogLeNet
 from sklearn.preprocessing import LabelBinarizer
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import LearningRateScheduler
-from keras.utils.training_utils import multi_gpu_model
+from keras.utils.multi_gpu_utils import multi_gpu_model
 from keras.optimizers import SGD
 from keras.datasets import cifar10
 import matplotlib.pyplot as plt
